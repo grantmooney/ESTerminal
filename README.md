@@ -1,4 +1,4 @@
 # ESTerminal
-A simple jQuery terminal/console
+A simple jQuery terminal/console with custom commands.
 
-Open "example.html" to see the terminal in action.
+[Live Demo](https://grantmooney.github.io/ESTerminal)
