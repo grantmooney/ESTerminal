@@ -1,4 +1,4 @@
-.text-red { color: #ff0000; }
+.text-red { color: red; }
 .esTerminal {
   box-sizing: border-box; 
   margin: 0px;
@@ -9,32 +9,33 @@
 }
 .esTerminal * { box-sizing: border-box; }
 .esTerminal a { color: blue !important; cursor: pointer !important; text-decoration: none; }
-.prompt span {
-  display: block;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-.prompt {
+
+.esTerminal .prompt {
   display: table;
   padding: 0;
   margin: 0;
   width: 100%;
 }
-.prompt label {
+.esTerminal span {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.esTerminal label {
   display: table-cell;
   padding: 0;
   margin: 0;
   width: 1em;
 }
-.prompt label:before {
+.esTerminal label:before {
   content: '>';
   display: table-cell;
   min-width: 1em;
   padding: 0;
   margin: 0;
 }
-.prompt input {
+.esTerminal input {
   background: transparent !important;
   border: none;
   outline: 0;
@@ -42,5 +43,5 @@
   margin: 0;
   display: table-cell;
   width: 100%;
-  z-index: 10
+  z-index: 10;
 }

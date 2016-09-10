@@ -54,7 +54,6 @@ if (window.jQuery) {
                 return false;
             });
             var cmdCallback = function(string) {
-                console.log(string);
                 activeCmd = null;
                 var input = $this.find('input:not([readonly])');
                 input.after('<span>'+string+'</span>');
